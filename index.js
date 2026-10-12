@@ -45,3 +45,12 @@ const bookStore = {
 
 // Write your code here!
 
+const bookImage = document.createElement("img");
+
+bookTitle.textContent = book.title;
+BookAuthor.textContent = book.author;
+bookImage.src = book.imageUrl;
+
+bookcontainer.append(bookTitle, BookAuthor, bookImage);
+
+append(bookcontainer);
