@@ -48,9 +48,9 @@ const bookStore = {
 const bookImage = document.createElement("img");
 
 bookTitle.textContent = book.title;
-BookAuthor.textContent = book.author;
+bookAuthor.textContent = book.author;
 bookImage.src = book.imageUrl;
 
-bookcontainer.append(bookTitle, BookAuthor, bookImage);
+bookContainer.append(bookTitle, BookAuthor, bookImage);
 
-append(bookcontainer);
+append(bookContainer);
